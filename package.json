@@ -1,0 +1,11 @@
+{
+  "name": "continu-kibana",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "connect": "~2.13.0",
+    "express": "~3.4.8",
+    "ejs": "*"
+  },
+  "devDependencies": {}
+}
