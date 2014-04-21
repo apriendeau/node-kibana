@@ -2,7 +2,7 @@ var express  = require('express'),
     http     = require('http'),
     path     = require('path'),
     app      = express(),
-    ENV      = app.get('env'),
+    ENV      = app.get('env')
 
 app.use(express.cookieParser());
 app.set('port', process.env.PORT || 3000);
